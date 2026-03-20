@@ -64,9 +64,6 @@ body {
     position: absolute;
     right: 20px;
     top: 30%;
-    /* caso queira centralizar algum item 
-    top: 50%;
-    transform: translatey(-50%); */
     font-size: 20px;
 }
 
@@ -131,3 +128,52 @@ body {
     text-decoration: underline;
 }
 
+
+@media (max-width: 480px) {
+
+    body {
+        padding: 20px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 25px 20px;
+        border-radius: 12px;
+    }
+
+    .container h1 {
+        font-size: 28px;
+    }
+
+    .input-box {
+        margin: 20px 0;
+        height: 45px;
+    }
+
+    .input-box input {
+        padding: 15px 40px 15px 15px;
+        font-size: 14px;
+    }
+
+    .input-box i {
+        font-size: 18px;
+        right: 15px;
+    }
+
+    .remember-forgot {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 13px;
+    }
+
+    .login {
+        height: 45px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .register-link {
+        font-size: 13px;
+        margin: 10px 0;
+    }
+}
